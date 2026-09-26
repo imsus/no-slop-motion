@@ -32,7 +32,7 @@ Walk through the product and list the moments that are good on camera: something
 
 2 to 4 films the decision maker likes. For each, write one line saying what to take and what to leave: "that film's look, not its tempo", "its opening hook, not its colour". Without this line, a reference gets copied whole or ignored.
 
-Watch them properly: pull 2 frames per second into a contact sheet (`scripts/qa/contact-sheet.sh`) and note camera moves, how type enters, how scenes hand off and how long holds last.
+Watch them properly: pull 2 frames per second into a contact sheet (`scripts/qa/contact_sheet.py`) and note camera moves, how type enters, how scenes hand off and how long holds last.
 
 ### Accounts ready
 

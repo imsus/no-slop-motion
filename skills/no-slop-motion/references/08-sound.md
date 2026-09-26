@@ -33,7 +33,7 @@ python3 scripts/music/join_on_downbeats.py --help
 Write [../templates/CUE-SHEET.md](../templates/CUE-SHEET.md) from the locked picture: time, what happens, energy, and whether the music must hit it.
 
 ```bash
-python3 scripts/music/cue_sheet.py plan.json music.wav
+python3 scripts/music/cue_sheet.py plan.json --music music.wav
 ```
 
 It checks every must-hit against the music's beats and flags misses over 0.1 s. Move the picture to the music's real accent rather than nudging the music.

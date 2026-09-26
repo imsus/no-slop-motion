@@ -57,8 +57,8 @@ Run, in order:
 npx hyperframes check                         # composition, layout, motion, contrast
 npx tsx scripts/qa/lint-slop.ts .             # banned patterns
 npx tsx scripts/render/render.ts --quality draft
-python3 scripts/qa/pop-scan.py renders/draft.mp4 --plan plan.json
-bash scripts/qa/contact-sheet.sh renders/draft.mp4 --around <cut times>
+python3 scripts/qa/pop-scan.py renders/draft.mp4 --plan index.html
+python3 scripts/qa/contact_sheet.py renders/draft.mp4 --around <cut times>
 ```
 
 Then an **adversarial subagent review**: a fresh agent gets the render, the contact sheets, `LOVES-HATES.md`, `DESIGN.md` and the script, and is asked to find everything the decision maker would flag. Fix what it finds before the handover.

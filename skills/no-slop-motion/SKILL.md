@@ -98,9 +98,9 @@ All scripts print their usage with `--help`.
 | `scripts/music/cue_sheet.py` | Check every must-hit against the music's beats and flag misses over 0.1 s |
 | `scripts/qa/lint-slop.ts` | Grep the project for banned patterns (configurable from your loves and hates) |
 | `scripts/qa/pop-scan.py` | Find pops, flashes and black dips in a render that aren't on a planned cut |
-| `scripts/qa/contact-sheet.sh` | Tile frames every N seconds, or densely around cuts, for review |
+| `scripts/qa/contact_sheet.py` | Tile frames every N seconds, or densely around cuts, for review |
 | `scripts/render/render.ts` | Render picture, mix voice, music and SFX, normalise loudness, and remix audio onto a locked picture |
-| `scripts/export/social.sh` | Platform exports (X under 512 MB, 4:5, 9:16) at -14 LUFS |
+| `scripts/export/social.ts` | Platform exports (X under 512 MB, 4:5, 9:16) at -14 LUFS |
 
 ## Handing over a cut
 

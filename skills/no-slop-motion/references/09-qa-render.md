@@ -43,7 +43,7 @@ Slow renders eat review loops, and they hurt most right before a deadline.
 ## Export
 
 ```bash
-bash scripts/export/social.sh renders/film.mp4
+npx tsx scripts/export/social.ts renders/film.mp4
 ```
 
 - **X**: H.264, AAC 48 kHz, -14 LUFS, faststart, under 512 MB.

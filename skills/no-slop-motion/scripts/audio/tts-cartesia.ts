@@ -209,7 +209,7 @@ async function main() {
 
 	if (!dryRun) await mkdir(outDir, { recursive: true });
 	const indexPath = join(outDir, 'takes.json');
-	// With --only, keep the index entries of the acts we are not re-recording.
+	// With --only, keep the index entries of the acts that are not being re-recorded.
 	const previous: IndexEntry[] = only && (await exists(indexPath)) ? JSON.parse(await readFile(indexPath, 'utf8')) : [];
 	const index: IndexEntry[] = previous.filter((e) => only !== null && !only.has(String(e.act)));
 

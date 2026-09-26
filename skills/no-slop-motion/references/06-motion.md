@@ -55,7 +55,7 @@ Avoid:
 - Shader transitions (glitch, burn, iris, whip) picked for energy. They also tend to drop colour or canvas content during capture.
 - Wipes that don't come from the world.
 
-**Check both sides of every cut**: compare the last frame of scene N with the first frame of scene N+1 (`scripts/qa/contact-sheet.sh --around <cut times>`). A match cut that is 20 px off reads as a jump.
+**Check both sides of every cut**: compare the last frame of scene N with the first frame of scene N+1 (`scripts/qa/contact_sheet.py --around <cut times>`). A match cut that is 20 px off reads as a jump.
 
 ## Crescendos
 
