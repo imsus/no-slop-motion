@@ -40,7 +40,7 @@ npx hyperframes skills
 ## Requirements
 
 - Node 22+, ffmpeg, Google Chrome or the HyperFrames headless shell (`npx hyperframes browser ensure`)
-- Python 3.10+ with the packages in `scripts/audio/requirements.txt` and `scripts/render/requirements.txt`
+- Python 3.10+ with the packages in each `scripts/*/requirements.txt`
 - A TTS key (`CARTESIA_API_KEY`) for the voice, and a music tool such as Suno or a licensed track
 
 ## Use

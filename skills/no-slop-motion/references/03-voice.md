@@ -56,6 +56,12 @@ Place the pieces at the spacing they were recorded with. Squeezing the gaps to f
 
 Write the onset of every piece into the starter's timing table (`assets/js/plan.js`, `PLAN.vo`) and the word timings into `assets/js/vo-data.js`. Scenes then anchor their beats to words, so retiming a line moves every beat attached to it (see `starter/README.md`).
 
+After every retime, check the placed onsets against the recorded spacing (`vo.json` is written by `split_takes.py`; `film.json` by any render):
+
+```bash
+python3 scripts/audio/check_vo_spacing.py renders/.cache/film.json vo.json
+```
+
 ## Captions
 
 Build captions from the final audio's word timestamps, never from the script text and a guess.
